@@ -18,7 +18,6 @@ export class MainComponent {
   ngOnInit() {
     this.dataProvider.getResponse().subscribe((response) => { 
       this.data = (response as Usuario[]); 
-      console.log(this.data);
     })
   }
 

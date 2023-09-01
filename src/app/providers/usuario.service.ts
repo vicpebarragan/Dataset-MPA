@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class UsuarioService {
 
-  private URL: string = 'http://localhost:3000/rest/usuario/findAll/json';
+  private URL: string = 'https://rest-dataset-production.up.railway.app/rest/usuario/findAll/json';
 
   constructor(private http: HttpClient) {
 
